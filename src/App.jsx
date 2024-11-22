@@ -1,13 +1,14 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import HomeCards from "./components/HomeCards";
 
 const App = () => {
   return (
     <>
       <Navbar />
-      <Hero title="Test Title" subtitle="This is the subtitle" />
+      <Hero />
+      <HomeCards />
 
-      {/*Developers and Employers*/}
       <section className="py-4">
         <div className="container-xl lg:container m-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 rounded-lg">
